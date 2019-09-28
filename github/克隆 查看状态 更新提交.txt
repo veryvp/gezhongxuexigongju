@@ -1,0 +1,22 @@
+一、克隆代码
+1、新建文件夹，终端中cd 到新建文件中。cd Desktop/document/project/test1
+
+2、把自己github上的项目代码克隆到新建的文件中。使用命令：git clone https://github.com/hc3001/doublefilter.git  （选择https）
+
+
+
+二、git status查看状态
+1、cd 到doublefilter, 查看当前的git仓库状态，可以使用git status
+
+2、git status可以看到On branch master,这个说明已经在master分之上了
+
+
+
+三、更新代码 
+1、在doublefilter下更新代码，我这边增加一个package.json文件。
+
+2、更新后使用git add .    代表更新全部，
+
+3、接着输入git commit -m "更新说明"，commit只是提交到缓存区域（更新说明不能省略)
+
+4、提交到github 远程仓库，git push origin master。

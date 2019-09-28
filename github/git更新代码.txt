@@ -1,4 +1,0 @@
-git status
-git add . 
-git commit -m "本次更新的说明"
-git push origin master # 将本地主分支推到远程主分支
